@@ -24,3 +24,13 @@ function subtractNumbers() {
     document.getElementById('num3').value = num3;
     
 }
+
+function multiply() {
+    let one = Number(document.getElementById('numberOne').value);
+    let two = Number(document.getElementById('numberTwo').value);
+    let three = one*two;
+    console.log(three)
+    document.getElementById('answer').value = three;
+}
+
+
